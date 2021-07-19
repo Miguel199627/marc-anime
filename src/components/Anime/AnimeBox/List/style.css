@@ -1,0 +1,149 @@
+.card {
+    padding-left: unset !important;
+    padding-right: unset !important;
+}
+
+.anime {
+    height: 350px;
+    position: relative;
+}
+
+.infoShow {
+    width: 270px !important;
+    left: 90%;
+    top: -10px;
+    background-color: #3b4348;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+    padding: 10px;
+    color: #b0bec5;
+    z-index: 10;
+    position: absolute;
+    height: auto;
+    border-radius: 5px;
+}
+
+.infoHide {
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s;
+    overflow: hidden;
+    line-height: 20px;
+    width: 270px !important;
+    left: 90%;
+    top: -10px;
+    background-color: #3b4348;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+    padding: 10px;
+    color: #b0bec5;
+    z-index: 10;
+    position: absolute;
+    height: auto;
+    border-radius: 5px;
+}
+
+.title {
+    color: #fff;
+    padding-right: 0;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.synopsis {
+    width: 250px;
+    overflow: hidden;
+    height: 185px;
+    padding: 5px;
+    font-size: 11.5px;
+    text-align: justify;
+}
+
+.overflow-ellipsis {
+    text-overflow: ellipsis;
+}
+
+a {
+    text-decoration: unset !important;
+    color: #3b4348 !important;
+}
+
+.cardSelect {
+    background-color: #01bcf380;
+}
+
+.imgSelect {
+    opacity: 0.5;
+}
+
+.aSelect {
+    color: #5f9ea0 !important;
+}
+
+@media (max-width: 575.98px) {
+    .infoHide {
+        left: auto;
+        right: 40%;
+    }
+
+    .infoShow {
+        left: auto;
+        right: 40%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .row>div:nth-child(2n) .infoHide {
+        left: auto;
+        right: 90%;
+    }
+
+    .row>div:nth-child(2n) .infoShow {
+        left: auto;
+        right: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .row>div:nth-child(3n) .infoHide {
+        left: auto;
+        right: 90%;
+    }
+
+    .row>div:nth-child(3n) .infoShow {
+        left: auto;
+        right: 90%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .row>div:nth-child(4n) .infoHide {
+        left: auto;
+        right: 90%;
+    }
+
+    .row>div:nth-child(4n) .infoShow {
+        left: auto;
+        right: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .row>div:nth-child(6n) .infoHide {
+        left: auto;
+        right: 90%;
+    }
+
+    .row>div:nth-child(6n) .infoShow {
+        left: auto;
+        right: 90%;
+    }
+
+    .anime {
+        height: 350px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .anime {
+        height: 470px;
+    }
+}
