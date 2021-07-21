@@ -67,7 +67,7 @@ a {
 }
 
 .cardSelect {
-    background-color: #01bcf380;
+    background-color: #01bcf380 !important;
 }
 
 .imgSelect {

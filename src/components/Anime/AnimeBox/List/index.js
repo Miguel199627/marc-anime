@@ -22,7 +22,7 @@ export default function List({ attributes, type, relationships }) {
             alt="..."
           />
         </div>
-        <h6 className={ point ? 'card-title text-light aSelect' : 'card-title text-light' }>{attributes.canonicalTitle}</h6>
+        <h6 className={ point ? 'card-title aSelect' : 'card-title text-light' }>{attributes.canonicalTitle}</h6>
       </a>
       <div className={ point ? 'infoShow' : 'infoHide' }>
         <div className="title">
